@@ -10,6 +10,7 @@ const cardListItem = (ImageData) => {
 
 const Cardlist = (data) => {
   return `
+    <link href="components/cardlist.css" rel="stylesheet" />
     <section class="cardlist">
       <ul class="cardlist_list">
         ${data.map((ImageData) => cardListItem(ImageData)).join("")}
