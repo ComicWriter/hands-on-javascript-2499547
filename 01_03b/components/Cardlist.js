@@ -13,7 +13,7 @@ const Cardlist = (data) => {
     <link href="components/cardlist.css" rel="stylesheet" />
     <section class="cardlist">
       <ul class="cardlist_list">
-        ${data.map((ImageData) => cardListItem(imgData)).join("")}
+        ${data.map((imgData) => cardListItem(imgData)).join("")}
       </ul>
     </section>
   `;
